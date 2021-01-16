@@ -1,3 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
   info.samples.autoconfigurationsamples.DummyConfiguration, \
-  info.samples.autoconfigurationsamples.PeacemakerConfig
+  info.samples.autoconfigurationsamples.PeacemakerConfig, \
+  info.samples.autoconfigurationsamples.props.MyCustomizableAutoconfiguration
