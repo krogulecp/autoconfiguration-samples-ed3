@@ -10,6 +10,12 @@ import org.springframework.context.annotation.Configuration;
 @EnableConfigurationProperties(MyAutoconfigurationProps.class)
 public class MyCustomizableAutoconfiguration {
 
+    private final MyAutoconfigurationProps props;
+
+    public MyCustomizableAutoconfiguration(MyAutoconfigurationProps props) {
+        this.props = props;
+    }
+
     @Bean
     public String myCustomizableAutoconfigurationBean(){
         return "myCustomizableAutoconfigurationBean";

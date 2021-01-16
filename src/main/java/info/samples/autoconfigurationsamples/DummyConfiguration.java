@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ConditionalOnWebApplication(type = ConditionalOnWebApplication.Type.SERVLET)
+//@ConditionalOnWebApplication(type = ConditionalOnWebApplication.Type.SERVLET)
 @AutoConfigureAfter(PeacemakerConfig.class)
 public class DummyConfiguration {
 
